@@ -1,0 +1,181 @@
+/* Спецификация */
+
+body{
+	font-family: 'PT Sans', sans-serif;
+}
+
+ul,li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+a{
+	color:black;
+} 
+
+h1,h2,h3,h4,h5,h6{
+	font-weight: 700;
+	color:black;
+}
+
+h3{
+	font-weight: 400
+}
+
+h2{
+	text-align: center;
+}
+
+.title{
+	padding-top: 120px;
+	text-align: center;
+	padding-bottom: 90px;
+
+}
+
+.title__main{
+	font-size: 32px;
+}
+
+.title__text{
+ 	width:750px;
+ 	font-size: 20px;
+ 	margin:0 auto;
+}
+
+/* Первый экран */
+
+.header{
+	background: #FFDC00;
+	color:black;
+	padding-top: 58px;
+	padding-bottom: 110px;
+}
+
+.menu{
+	margin-top: 10px;
+	text-decoration: none;
+}
+
+.menu__item{
+	font-size: 22px;
+	font-weight: 700;
+	color:black;
+	margin: 0 42px;
+}
+
+.offer{
+margin-top:117px;
+} 
+
+.offer__title{
+	font-size: 32px;
+	margin-bottom: 27px;
+
+}
+
+.offer__intro{
+	font-size:20px;
+	line-height: 1,3em;
+	margin-bottom: 27px;
+}
+
+.offer__text{
+	margin-bottom:40px;
+	width:400px;
+}
+
+.icons__item a{
+font-size: 42px;
+color:black;
+margin-right: 30px;
+transition: 0.3s ease;
+
+}
+
+.icons__item a:hover{
+	text-decoration: none;
+	color:#776700;
+	font-size: 50px;
+}
+
+.ipad{
+	margin-top:70px;
+	display: block;
+}
+
+/* Второй экран */
+
+.feature__icon{
+font-size: 50px;
+margin-right: 39px;
+}
+
+.feature__text{
+	width: 210px;
+	color: #8A8A8A;
+}
+
+.feature{
+	margin-bottom: 76px;
+}
+
+/*Третий экран*/
+
+.touch{
+	background: black;
+}
+
+.title__main{
+	color:#FFDC00;
+ }
+
+.title__text{
+	color:#727272;
+}
+
+.form{
+padding-top: 43px;
+text-align: center;
+}
+
+.form__input{
+background: white;
+font-size: 16px;
+border-radius: 5px;
+font-family: 'PT Sans', sans-serif;
+width: 580px;
+height: 50px;
+}
+
+.form__btn {
+    font-family: 'PT Sans', sans-serif;
+    background: #fcdb00;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+    width: 126px;
+    border: 0;
+    padding: 14px 0;
+    cursor: pointer;
+    outline: none;
+}
+
+/* Футер */
+
+.footer{
+background: #000;
+    padding:50px 0 94px;
+}
+
+.credits{
+	color: #fff;
+    font-size: 16px;
+    width: 184px;
+    margin: 0 auto;
+    text-align: center;
+}
+
